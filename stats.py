@@ -11,6 +11,7 @@ def number_of_characters(contents):
     data = contents.lower()
     characters = {}
     for i in data:
-        try:
+        present = i in characters
+        if present == True
             characters[i] = characters[i] + 1
     return characters
