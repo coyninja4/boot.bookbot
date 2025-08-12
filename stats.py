@@ -14,4 +14,6 @@ def number_of_characters(contents):
         present = i in characters
         if present == True:
             characters[i] = characters[i] + 1
+        else:
+            characters[i] = 1
     return characters
